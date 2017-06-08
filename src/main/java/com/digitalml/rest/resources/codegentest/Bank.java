@@ -13,7 +13,13 @@ JSON Representation for Bank:
     "pin",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "chequebook"
+=======
+    "chequebook",
+    "debitCard",
+    "creditCard"
+>>>>>>> my_branch
 =======
     "chequebook",
     "debitCard",
@@ -37,7 +43,10 @@ JSON Representation for Bank:
       "type": "string"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
     },
@@ -47,6 +56,9 @@ JSON Representation for Bank:
     "creditCard": {
       "type": "string"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
@@ -71,7 +83,10 @@ public class Bank {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 	@Size(max=1)
@@ -83,6 +98,9 @@ public class Bank {
 	private String creditCard;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
@@ -96,6 +114,11 @@ public class Bank {
 	    chequebook = org.apache.commons.lang3.StringUtils.EMPTY;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
+>>>>>>> my_branch
 =======
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
@@ -128,7 +151,10 @@ public class Bank {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 	public String getDebitCard() {
@@ -146,6 +172,9 @@ public class Bank {
 		this.creditCard = creditCard;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch

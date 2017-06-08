@@ -51,10 +51,13 @@ public abstract class NewServiceService {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public void myNewMethod() {
 		System.out.println("This doesn't do a lot!");
 	}
 	
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
