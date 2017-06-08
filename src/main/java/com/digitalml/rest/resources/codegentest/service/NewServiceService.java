@@ -49,10 +49,13 @@ public abstract class NewServiceService {
 
 	protected static Mapper mapper;
 
+<<<<<<< HEAD
 	public void myNewMethod() {
 		System.out.println("This doesn't do a lot!");
 	}
 	
+=======
+>>>>>>> my_branch
 	static {
 		URL configFile = NewServiceService.class.getResource("NewServiceServiceMappings.xml");
 		if (configFile != null) {
