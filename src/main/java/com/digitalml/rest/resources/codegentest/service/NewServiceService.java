@@ -49,6 +49,10 @@ public abstract class NewServiceService {
 
 	protected static Mapper mapper;
 
+	public void myNewMethod() {
+		System.out.println("This doesn't do a lot!");
+	}
+	
 	static {
 		URL configFile = NewServiceService.class.getResource("NewServiceServiceMappings.xml");
 		if (configFile != null) {

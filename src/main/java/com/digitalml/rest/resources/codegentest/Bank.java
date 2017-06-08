@@ -11,9 +11,7 @@ JSON Representation for Bank:
   "required": [
     "address",
     "pin",
-    "chequebook",
-    "debitCard",
-    "creditCard"
+    "chequebook"
   ],
   "type": "object",
   "properties": {
@@ -24,12 +22,6 @@ JSON Representation for Bank:
       "type": "string"
     },
     "chequebook": {
-      "type": "string"
-    },
-    "debitCard": {
-      "type": "string"
-    },
-    "creditCard": {
       "type": "string"
     }
   }
@@ -50,14 +42,6 @@ public class Bank {
 	@NotNull
 	private String chequebook;
 
-	@Size(max=1)
-	@NotNull
-	private String debitCard;
-
-	@Size(max=1)
-	@NotNull
-	private String creditCard;
-
 	{
 		initialiseDTO();
 	}
@@ -66,8 +50,6 @@ public class Bank {
 	    pin = org.apache.commons.lang3.StringUtils.EMPTY;
 	    address = org.apache.commons.lang3.StringUtils.EMPTY;
 	    chequebook = org.apache.commons.lang3.StringUtils.EMPTY;
-	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
-	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	}
 	public String getPin() {
 		return pin;
@@ -89,19 +71,5 @@ public class Bank {
 	
 	public void setChequebook(String chequebook) {
 		this.chequebook = chequebook;
-	}
-	public String getDebitCard() {
-		return debitCard;
-	}
-	
-	public void setDebitCard(String debitCard) {
-		this.debitCard = debitCard;
-	}
-	public String getCreditCard() {
-		return creditCard;
-	}
-	
-	public void setCreditCard(String creditCard) {
-		this.creditCard = creditCard;
 	}
 }
