@@ -16,6 +16,7 @@ JSON Representation for Bank:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "chequebook"
 =======
     "chequebook",
@@ -43,6 +44,12 @@ JSON Representation for Bank:
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
+=======
+    "chequebook",
+    "debitCard",
+    "report",
+    "creditCard"
+>>>>>>> my_branch
   ],
   "type": "object",
   "properties": {
@@ -59,7 +66,10 @@ JSON Representation for Bank:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -78,6 +88,7 @@ JSON Representation for Bank:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
@@ -91,6 +102,11 @@ JSON Representation for Bank:
 =======
     },
     "address_1": {
+      "type": "string"
+>>>>>>> my_branch
+=======
+    },
+    "report": {
       "type": "string"
 >>>>>>> my_branch
     }
@@ -117,7 +133,10 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -138,6 +157,7 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
@@ -154,6 +174,12 @@ public class Bank {
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
+=======
+	@Size(max=1)
+	@NotNull
+	private String report;
+
+>>>>>>> my_branch
 	{
 		initialiseDTO();
 	}
@@ -167,6 +193,7 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
@@ -188,6 +215,11 @@ public class Bank {
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    address = org.apache.commons.lang3.StringUtils.EMPTY;
+>>>>>>> my_branch
+=======
+	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    report = org.apache.commons.lang3.StringUtils.EMPTY;
 >>>>>>> my_branch
 	}
 	public String getPin() {
@@ -216,7 +248,10 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -243,6 +278,7 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
@@ -261,5 +297,14 @@ public class Bank {
 <<<<<<< HEAD
 >>>>>>> my_branch
 =======
+>>>>>>> my_branch
+=======
+	public String getReport() {
+		return report;
+	}
+	
+	public void setReport(String report) {
+		this.report = report;
+	}
 >>>>>>> my_branch
 }
