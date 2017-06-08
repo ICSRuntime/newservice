@@ -14,6 +14,7 @@ JSON Representation for Bank:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "chequebook"
 =======
     "chequebook",
@@ -27,6 +28,12 @@ JSON Representation for Bank:
 >>>>>>> my_branch
 =======
     "chequebook",
+    "debitCard",
+    "creditCard"
+>>>>>>> my_branch
+=======
+    "chequebook",
+    "address_1",
     "debitCard",
     "creditCard"
 >>>>>>> my_branch
@@ -44,7 +51,10 @@ JSON Representation for Bank:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -57,10 +67,16 @@ JSON Representation for Bank:
       "type": "string"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
+>>>>>>> my_branch
+=======
+    },
+    "address_1": {
+      "type": "string"
 >>>>>>> my_branch
     }
   }
@@ -84,7 +100,10 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -99,10 +118,17 @@ public class Bank {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
+>>>>>>> my_branch
+=======
+	@Size(max=1)
+	@NotNull
+	private String address_1;
+
 >>>>>>> my_branch
 	{
 		initialiseDTO();
@@ -115,6 +141,7 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
@@ -126,6 +153,11 @@ public class Bank {
 =======
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
+>>>>>>> my_branch
+=======
+	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    address = org.apache.commons.lang3.StringUtils.EMPTY;
 >>>>>>> my_branch
 	}
 	public String getPin() {
@@ -152,7 +184,10 @@ public class Bank {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
@@ -173,9 +208,19 @@ public class Bank {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> my_branch
 =======
 >>>>>>> my_branch
 =======
+>>>>>>> my_branch
+=======
+	public String getAddress_1() {
+		return address;
+	}
+	
+	public void setAddress_1(String address_1) {
+		this.address_1 = address_1;
+	}
 >>>>>>> my_branch
 }
