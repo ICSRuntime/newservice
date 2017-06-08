@@ -12,7 +12,13 @@ JSON Representation for Bank:
     "address",
     "pin",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "chequebook"
+=======
+    "chequebook",
+    "debitCard",
+    "creditCard"
+>>>>>>> my_branch
 =======
     "chequebook",
     "debitCard",
@@ -30,13 +36,19 @@ JSON Representation for Bank:
     "chequebook": {
       "type": "string"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
     },
     "debitCard": {
       "type": "string"
     },
     "creditCard": {
       "type": "string"
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
     }
   }
@@ -58,7 +70,10 @@ public class Bank {
 	private String chequebook;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 	@Size(max=1)
 	@NotNull
 	private String debitCard;
@@ -67,6 +82,9 @@ public class Bank {
 	@NotNull
 	private String creditCard;
 
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
 	{
 		initialiseDTO();
@@ -77,6 +95,11 @@ public class Bank {
 	    address = org.apache.commons.lang3.StringUtils.EMPTY;
 	    chequebook = org.apache.commons.lang3.StringUtils.EMPTY;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
+	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
+>>>>>>> my_branch
 =======
 	    debitCard = org.apache.commons.lang3.StringUtils.EMPTY;
 	    creditCard = org.apache.commons.lang3.StringUtils.EMPTY;
@@ -104,7 +127,10 @@ public class Bank {
 		this.chequebook = chequebook;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> my_branch
 	public String getDebitCard() {
 		return debitCard;
 	}
@@ -119,5 +145,8 @@ public class Bank {
 	public void setCreditCard(String creditCard) {
 		this.creditCard = creditCard;
 	}
+<<<<<<< HEAD
+>>>>>>> my_branch
+=======
 >>>>>>> my_branch
 }

@@ -50,10 +50,13 @@ public abstract class NewServiceService {
 	protected static Mapper mapper;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public void myNewMethod() {
 		System.out.println("This doesn't do a lot!");
 	}
 	
+=======
+>>>>>>> my_branch
 =======
 >>>>>>> my_branch
 	static {
